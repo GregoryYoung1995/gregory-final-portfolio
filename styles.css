@@ -1,0 +1,88 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    font-family: 'Merriweather', serif;
+}
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+#dancing {
+    background-image: url(img/FSD.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+#fencing {
+    background-image: url(img/Fiore.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+#gaming {
+    background-image: url(img/gaming.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+#webDesign {
+    background-image: url(img/webDesign.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+#carouselExampleControls{
+    width: 75%;
+}
+.sectionHeading{
+    padding: 60px 0px 20px 0px;
+}
+.sectionContent{
+    text-align: center;
+    width: 75%;
+    padding: 40px 20px;
+    margin: 15% 0%;
+    border-radius: 16px;
+    background-color: #fff;
+    z-index: 1;
+}
+.fenceVid{
+    width: 100%;
+}
+#forms-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#contact-box{
+    width: 500px;
+    height: 450px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0px 2px 2px);
+}
